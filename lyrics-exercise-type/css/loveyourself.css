@@ -1,0 +1,83 @@
+p {
+    line-height: 1.8em;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    text-indent:2em;
+ }
+
+ html {
+    text-align: center;
+ }
+
+body {
+    background-color:rgb(191, 96, 214)   ;
+}
+
+audio {
+    text-align: right;
+}
+
+ h1 {
+     font-size: 110pt;
+     text-align: left;
+     font-weight: normal;
+     line-height:0.1em;
+     font-family: 'Heebo', sans-serif;
+ }
+
+ .artist{
+    font-size: 30pt;
+    text-align:left;
+    font-weight: normal;
+    font-family: 'Heebo', sans-serif;
+    text-indent:0.5em;
+    line-height:1em;
+
+ }
+
+ a {
+    font-family: 'Heebo', sans-serif;
+ }
+
+ .pre-chorus {
+    font-family: 'Heebo', sans-serif;
+    color:  rgb(94, 19, 233);
+    text-align: left;
+ }
+
+ .chorus {
+    font-family: 'Heebo', sans-serif;
+     color: rgb(245, 111, 111);
+     text-align: left;
+ }
+
+ .verse1 {
+    font-family: 'Heebo', sans-serif;
+    color: rgb(245, 138, 111);
+    text-align: left;
+}
+ 
+.refrain {
+    font-family: 'Heebo', sans-serif;
+    color: rgb(226, 9, 82);
+    text-align: left;
+}
+
+.verse2 {
+    font-family: 'Heebo', sans-serif;
+    color: rgb(96, 83, 121);
+    text-align: left;
+}
+
+.bridge {
+    font-family: 'Heebo', sans-serif;
+    color: rgb(46, 116, 163);
+    text-align: left;
+}
+
+.video {
+    font-size: 20px;
+    text-align:bottom;
+    text-align: left;
+}
