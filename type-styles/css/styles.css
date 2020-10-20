@@ -1,0 +1,104 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    text-indent:5rem;
+    font-size:16pt;
+    letter-spacing:0.05em;
+}
+
+h1{
+    font-size:90pt;
+    text-indent: 5rem;
+}
+
+h2{
+    text-transform:capitalize;
+    color: rgb(96, 109, 168);
+    font-size: 28pt;
+    text-indent:5rem;
+}
+
+section{
+    text-indent:11em;
+}
+
+p{
+    font-size: 23pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+.light {
+    font-weight:300;
+}
+
+.regular {
+    font-weight:400;
+}
+
+.medium {
+    font-weight:500;
+}
+
+.semi-bold {
+    font-weight:600;
+}
+
+.bold{
+    font-weight:700;
+}
+
+.italic {
+    font-style:italic;
+}
+
+.tight {
+    letter-spacing:-0.1em;
+}
+
+.loose {
+    letter-spacing:0.1em;
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
+
+.lowercase{
+    text-transform:lowercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.overline{
+    text-decoration:overline;
+}
+
+.linethrough{
+    text-decoration:line-through
+}
+
+.doubleunder{
+    text-decoration:underline;
+    text-decoration-style:double;
+}
+
+.wavyunder{
+    text-decoration:underline;
+    text-decoration-style:wavy;
+}
+
+.weight {
+    flex-direction: column;
+    align-items: flex-start;
+}
