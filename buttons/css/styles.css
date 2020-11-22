@@ -1,0 +1,223 @@
+a#btn_cocacola img {
+    width: 150px;
+    position:relative;
+    margin:auto;
+    top:35%;
+    transition:0.5s;
+}
+
+a#btn_cocacola:hover {
+    background-color:#ffffff;
+    box-shadow:0 0 8px #ff0000;
+}
+
+a#btn_cocacola {
+    display:inline-block;
+    margin:auto;
+    margin-top:90px;
+}
+
+a#btn_michaelkors img{
+    width: 160px;
+    opacity: 0.8;
+    margin:auto;
+    display:block;
+    margin-top:60px;
+}
+
+a#btn_michaelkors:hover img{
+    transform: scale(1.5);
+    transition: all 1.0s;
+}
+
+a#btn_newyorker img {
+    width: 200px;
+    margin-top: 50px;
+}
+
+a#btn_newyorker:hover img {
+    transform: scaleX(-1);
+    transition: all 1.5s;
+}
+
+a#btn_samsung img{
+    width: 200px;
+    margin-top: 90px;
+    transition: all .5s;
+}
+
+a#btn_samsung:hover img{
+    transform: rotateX(360deg); 
+}
+
+a#btn_fitbit img{
+    width: 150px;
+    margin-top:50px;
+}
+
+a#btn_fitbit:hover span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: turquoise;
+    font-size: 35pt;
+    display: inline-block;
+    margin-top: 80px;
+    transition: all 2.0s;
+}
+
+a#btn_fitbit {
+    color: white;
+    text-decoration: none;
+}
+
+a#btn_nike img{
+    width:200px;
+    margin-top:40px;
+    transition: all 1s;
+}
+
+a#btn_nike:hover img{
+    transform: translateX(200px);
+    padding-left: 400px;
+    position: relative;
+    left: -70px;
+}
+
+a#btn_tesla img{
+    width:200px;
+    margin-top:30px;
+    transition: cubic-bezier(0.1, 1, 1, 1);
+    display: inline-block;
+}
+
+a#btn_tesla #tesla2 {
+    width:0px;
+}
+
+a#btn_tesla{
+    margin: auto;
+    position: relative;
+    top: 15%;
+}
+
+a#btn_tesla:hover #tesla1 {
+    transform: translateY(-40%);
+}
+
+a#btn_tesla:hover #tesla2 {
+    width: 260px;
+    transform: translateY(-130%);
+    opacity: 25%;
+}
+
+a#btn_electra img{
+    width:200px;
+    margin-top:10px;
+    transition: all 1.5s;
+}
+
+a#btn_electra:hover img{
+    transform: rotate(360deg) scale(1.3,1.3);
+}
+
+a#btn_pottermore img{
+    width:200px;
+    margin-top:45px;
+    padding-top: 60px;
+    transition: all .3s;
+}
+
+a#btn_pottermore:hover img {
+    opacity: .2;
+    transform: scale(1.3, 1.3);
+    padding-bottom: 50px;
+}
+
+a#btn_pottermore img {
+    width: 240px;
+    padding-top: 35px;
+    transition: all .5s;
+}
+
+a#btn_moo img{
+    width:180px;
+    margin-top:100px;
+}
+
+a#btn_moo:hover img {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+a#btn_nbc img{
+    width:160px;
+    margin-top:50px;
+    display: inline-block;
+}
+
+a#btn_nbc:hover img{
+    transform: scale(1.5);
+    transition: all 1.0s;
+}
+
+a#btn_lyft img{
+    width:140px;
+    margin-top:90px;
+    transition: all 0.5s;
+}
+
+a#btn_lyft:active img{
+    width: 150px;
+}
+
+a#btn_lyft:hover img {
+    width: 180px;
+    transform: rotate(-30deg);
+}
+
+a#btn_stjude img{
+    width:270px;
+    margin-top:60px;
+    transition: all .5s;
+}
+
+a#btn_stjude:hover img{
+    transform: rotateY(360deg);
+}
+
+a#btn_tucker img{
+    width:270px;
+    margin-top:100px;
+    display: block;
+    z-index: 0;
+}
+
+a#btn_tucker:hover img {
+    position: relative;
+    left:100px;
+    right:50px;
+    transition: 1.5s;
+    opacity: 10%;
+}
+
+a#btn_bissinger img{
+    width:185px;
+    margin-top:100px;
+}
+
+a#btn_bissinger:hover {
+    border-bottom: 4px solid gold;
+    transition: all 0.5s;
+}
+
+a#btn_oldnavy img {
+    display: block;
+    width: 220px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+a#btn_oldnavy:hover img {
+    transform: rotate(360deg);
+    transition: 2s;
+}
