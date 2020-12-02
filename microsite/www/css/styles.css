@@ -1,0 +1,265 @@
+html {
+    background-color:rgb(69, 5, 219);
+    font-family: alwyn-new-web, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1{
+    font-size:60pt;
+    padding-left:7%;
+    padding-top:15%;
+    color:#f7b5f1;
+    position:absolute;
+}
+
+nav ul li{
+    font-size:20pt;
+    list-style: none;
+    overflow:hidden;
+    display:inline;
+}
+
+nav ul li a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+nav ul li a:hover {
+    background-color: #f7b5f1;
+    color: lightseagreen;
+}
+
+nav ul li a.active {
+    background-color: #f7b5f1;
+    color: white;
+}
+
+p{
+    padding-left:7%;
+    padding-right:7%;
+    line-height:22px;
+    color:#f7b5f1;
+    font-size:13pt;
+    margin-top:35%;
+    position:absolute
+}
+
+.jellyfish3 img{
+    width:45%;
+    padding-left:40%;
+    display:block;
+    float:right;
+    position: fixed;
+    bottom:280;
+    right: -20;
+    animation-name: floating1;
+    animation-duration:5s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating1 { 
+    0% { transform: translate(0,  -0px) rotate(-45deg);} 
+    50%  { transform: translate(0, 300px) rotate(-45deg); } 
+    100%   { transform: translate(0, -0px) rotate(-45deg); }    
+} 
+
+.container {
+    position: relative;
+    color: white;
+    margin: 20px;
+    width: auto;
+  }
+
+.basicanatomy img{
+    width:30%;
+    display:block;
+    float:right;
+    position:absolute;
+    top:100;
+    right:120;
+    padding:7%;
+}
+
+.anatomyp2{
+    padding:40%;
+    padding-top:21%;
+}
+
+.boxjelly img{
+    width:30%;
+    float:left;
+    display:block;
+    bottom:-180;
+    animation-name: floating2;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+    margin-left: 15%; 
+    margin-top: 5px; 
+}
+
+@keyframes floating2 { 
+    0% { transform: translate(0,  300px) rotate(-45deg);} 
+    50%  { transform: translate(0, 0px) rotate(-75deg); } 
+    100%   { transform: translate(0, -50px) rotate(-75deg); }    
+} 
+
+.anatomyp3{
+    padding:40%;
+    margin-top:-58%;
+}
+
+.anatomyp4{
+    margin-top:-15%;
+    padding-bottom:40px;
+}
+
+.hydrozoajelly img{
+    width:30%;
+    position: fixed;
+    bottom:550;
+    right:-70;
+    animation-name: floating3;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating3 { 
+    0% { transform: translate(0,  0px) rotate(20deg);} 
+    25%  { transform: translate(0, 150px) rotate(35deg); } 
+    100%   { transform: translate(0, -0px) rotate(25deg); }    
+} 
+
+.jellymap img{
+    width:30%;
+    display: block;
+    position:absolute;
+    top:700;
+    left:380;
+    padding:7%;
+}
+
+.moonjelly img{
+    width:30%;
+    position:absolute;
+    top:900;
+    left:100;
+    animation-name: floating5;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+.moonjelly2 img{
+    width:30%;
+    position:absolute;
+    top:600;
+    left:850;
+    animation-name: floating6;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating5 { 
+    0% { transform: translate(0,  150px) rotate(35deg);} 
+    50%  { transform: translate(0, 0px) rotate(20deg); } 
+    100%   { transform: translate(0, -0px) rotate(15deg); }    
+} 
+
+@keyframes floating6 { 
+    0% { transform: translate(0,  0px) rotate(20deg);} 
+    75%  { transform: translate(0, 180px) rotate(35deg); } 
+    100%   { transform: translate(0, -0px) rotate(25deg); }    
+}
+
+.jellyfish7 img{
+    width:25%;
+}
+
+.blooms{
+    padding-top:40%;
+    display:block;
+    position:relative;
+    bottom:-150;
+}
+
+.turtlejelly img{
+    width:30%;
+    animation-name: floating4;
+    animation-direction: alternate;
+    animation-duration:3s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+    position:absolute;
+    top:150;
+    right:-130;
+}
+
+@keyframes floating4 { 
+    0% { transform: translate(0,  0px);} 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }    
+} 
+
+.lifecyclejelly img{
+    width:30%;
+    display:block;
+    float:right;
+    margin:10%;
+    position:relative;
+    bottom:-600;
+}
+
+.stage1{
+    display:block;
+    position:relative;
+    bottom:-140;
+    left:15;
+}
+
+.stage2{
+    display:block;
+    position:relative;
+    bottom:-500;
+    left:15;
+    width:58%;
+    margin-left:2.5em;
+}
+
+.stage3{
+    display:block;
+    position:relative;
+    bottom:-730;
+    left:15;
+    width:58%;
+    margin-left:2.5em;
+}
+
+.stage4{
+    display:block;
+    position:relative;
+    bottom:-1050;
+    left:15;
+    width:58%;
+    margin-left:2.5em;
+}
+
+.lifespan{
+    margin-left:-1em;
+    position:relative;
+    bottom:-950;
+}
+
+.diet{
+    margin-left:-1em;
+    position:relative;
+    bottom:-1170;
+}
