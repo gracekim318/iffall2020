@@ -1,0 +1,328 @@
+html {
+    background-color:rgb(62, 26, 160);
+    font-family: alwyn-new-web, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1{
+    font-size:65pt;
+    color:#e46ee4;
+    padding-top:10%;
+}
+
+h2{
+    color:lightseagreen;
+    margin:0;
+}
+
+nav ul{
+    padding:0;
+
+}
+
+nav ul li{
+    list-style: none;
+    overflow:hidden;
+    display:inline-block;
+    position:relative;
+    z-index:1000;
+    margin:auto;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 14px;
+    display: inline-block;
+  }
+
+nav ul li a:hover {
+    background-color:#f7b5f1;
+    color: lightseagreen;
+}
+
+nav ul li a.active {
+    background-color: #f7b5f1;
+    color: white;
+}
+
+p{
+    line-height:28px;
+    color:#f7b5f1;
+    font-size:13pt;
+}
+
+body{
+    width:90%;
+    max-width:960px;
+    margin:auto;
+}
+
+.homepage{
+    float:left;
+    width:74%;
+}
+
+.funfacts{
+    margin:0px;
+    background-color: rgb(70, 26, 190);
+    padding: 1rem;
+    width:20%;
+    height:37%;
+}
+
+@media(min-width:300px){
+    .funfacts{
+        float:right;
+    }
+}
+
+.jellyfish3 img{
+    width:40%;
+    display:block;
+    float:right;
+    position: fixed;
+    bottom:200;
+    right: 20;
+    animation-name: floating1;
+    animation-duration:5s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating1 { 
+    0% { transform: translate(0,  -500px) rotate(-45deg);} 
+    50%  { transform: translate(0, 0px) rotate(-45deg); } 
+    100%   { transform: translate(0, -500px) rotate(-45deg); }    
+} 
+
+.container {
+    position: relative;
+    color: white;
+    width: auto;
+  }
+
+.basicanatomy img{
+    width:60%;
+    display:block;
+    padding: 2em;
+    margin-top:4em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.boxjelly img{
+    width:30%;
+    display:block;
+    animation-name: floating2;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+    margin-left:-250;
+}
+
+@keyframes floating2 { 
+    0% { transform: translate(0,  150px) rotate(-45deg);} 
+    50%  { transform: translate(0, 0px) rotate(-75deg); } 
+    100%   { transform: translate(0, -50px) rotate(-75deg); }    
+}
+
+.hydrozoajelly img{
+    width:30%;
+    position: fixed;
+    bottom:550;
+    right:-70;
+    animation-name: floating3;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating3 { 
+    0% { transform: translate(0,  0px) rotate(20deg);} 
+    25%  { transform: translate(0, 150px) rotate(35deg); } 
+    100%   { transform: translate(0, -0px) rotate(25deg); }    
+} 
+
+.jellymap img{
+    width:40%;
+    margin:auto;
+    padding:2em;
+    display:block;
+}
+
+.moonjelly img{
+    position:absolute;
+    bottom:500;
+    left:-10;
+    width:35%;
+    animation-name: floating5;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+.moonjelly2 img{
+    position:absolute;
+    bottom:620;
+    right:0;
+    width:30%;
+    animation-name: floating6;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating5 { 
+    0% { transform: translate(0,  150px) rotate(35deg);} 
+    50%  { transform: translate(0, 0px) rotate(20deg); } 
+    100%   { transform: translate(0, -0px) rotate(15deg); }    
+} 
+
+@keyframes floating6 { 
+    0% { transform: translate(0,  0px) rotate(20deg);} 
+    75%  { transform: translate(0, 150px) rotate(35deg); } 
+    100%   { transform: translate(0, -0px) rotate(25deg); }    
+}
+
+.jellyfish7 img{
+    width:25%;
+}
+
+.blooms{
+    display:block;
+}
+
+.turtlejelly img{
+    width:30%;
+    margin-left:102%;
+    animation-name: floating4;
+    animation-direction: alternate;
+    animation-duration:3s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating4 { 
+    0% { transform: translate(0,  0px);} 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }    
+} 
+
+.lifecyclejelly img{
+    width:30%;
+    display:block;
+    float:right;
+    margin:2em;
+}
+
+.stage1{
+    display:block;
+    margin-left:30px;
+}
+
+.stage2{
+    display:block;
+    margin-left:30px;
+}
+
+.stage3{
+    display:block;
+    margin-left:30px;
+}
+
+.stage4{
+    display:block;
+    margin-left:30px;
+}
+
+.lifecycle{
+    margin-left:30px;
+}
+
+.lifespan{
+    margin-left:30px;
+}
+
+.diet{
+    margin-left:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+ul{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.grid li{
+    display: block;
+}
+
+.grid li img{
+    margin-right:auto;
+    padding:2em;
+    display:block;
+    width:120%;
+    animation-name: floating4;
+    animation-direction: alternate;
+    animation-duration:3s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+ul li .scyphozoajelly img{
+    width:60%;
+}
+
+.caption{
+    font-size: 10pt;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.predatorprey{
+    margin-left:30px;
+}
+
+.bioluminescence{
+    margin-left:30px;
+}
+
+.bioluminescent img{
+    width:30%;
+    float:right;
+}
+
+.habitat{
+    margin-left:30px;
+}
+
+.blooms{
+    margin-left:30px;
+}
+
+.bioluminescent{
+    width:120%;
+    margin:auto;
+    animation-name: floating4;
+    animation-direction: alternate;
+    animation-duration:3s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+#sources_container{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
